@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Pimauto Auto Peças</title>
+    <link href="style.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="slide.css"/>
+   
+    <script src="animationslide.js" defer></script>
+
+    <!--Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+
+
+</head>
+<body>
+
+    <header>
+        <nav>
+            <a class="logo" href="/">Pimauto</a>
+                 
+        <ul class="nav-list">
+            <li><a href="inicialpage.html">HOME</a></li>
+            <li><a href="/">SERVIÇOS</a></li>
+            <li><a href="sobre.html">QUEM SOMOS</a></li>
+        </ul>
+
+
+        </div>
+
+        <div class="btn-contato">
+            <a href="#">
+                <button>CONTATO</button>
+            </a>
+        </div>
+        </nav>
+    </header> 
+    <main> 
+        <div class="container">
+                    <div class="content-3">
+                        <a href="https://api.whatsapp.com/send?phone=5537988167683&text=Gostaria%20de%20receber%20mais%20informações?" class="icon" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                    </div>    
+        <div class="container">
+            <div class="slider-content">
+                <input type="radio" name="btn-radio" id="radio1" checked>
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+
+                <div class="slide-box primeiro">
+                    <img class="img-desktop" src="img/img1.jpg" alt="slide 1">
+                    <img class="img-mobile" src="img/img1.jpg" alt="slide 1">
+                </div>
+
+                <div class="slide-box">
+                    <img class="img-desktop" src="img/img2.jpg" alt="slide 2">
+                    <img class="img-mobile" src="img/img2.jpg" alt="slide 2">
+                </div>
+
+                <div class="slide-box">
+                    <img class="img-desktop" src="img/img3.jpg" alt="slide 3">
+                    <img class="img-mobile" src="img/img3.jpg" alt="slide 3">
+                </div>
+
+                <div class="slide-box">
+                    <img class="img-desktop" src="img/img4.jpg" alt="slide 4">
+                    <img class="img-mobile" src="img/img4.jpg" alt="slide 4">
+                </div>
+
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+        </div>
+
+        <div class="showcase">
+            <div class="showcase_content">
+                <p>PIMAUTO AUTO PEÇAS</p>
+                <h1>Há mais de 42 anos realizando manuntenções em veículos com segurança e qualidade.</h1>
+                <button>ENTRE EM CONTATO</button>
+            </div>
+        </div>
+        <section class="serviços">
+            <div class="interface">
+                <h2 class="titulo">SERVIÇOS ESPECIALIZADOS.</h2>
+                <div class="flex">
+                    <div class="serviços-box">
+                        <h3>Mecanica em Geral</h3>
+                        <img src="9055295_bxs_car_mechanic_icon.png" alt="">
+                        <p></p>
+                    <div class="serviços-box">
+                        <h3>Troca de Óleo </h3>
+                        <img src="8665608_oil_can_icon.png" alt="">
+                        <p></p>
+                    <div class="serviços-box">
+                        <h3>Mecânica em Geral</h3>
+                        <img src="9055295_bxs_car_mechanic_icon.png" alt="">
+                        <p></p>
+                    <div class="serviços-box">
+                        <h3>Mecânica em Geral</h3>
+                        <img src="9055295_bxs_car_mechanic_icon.png" alt="">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>Entre em contato</h1>
+                    <h3>37 3324-1101
+                        <br>
+                        37 988167683
+                    </h3>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="instagram">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                    </div>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="facebook">
+                            <i class='bx bxl-facebook-circle'></i>
+                        </a>
+                    </div>
+
+                    <div id="footer_social_media">
+                        <a href="#" class="footer-link" id="whatsapp">
+                            <i class='bx bxl-whatsapp-square'></i>
+                        </a>
+                    </div>
+                </div>
+
+            <div class="footer-list">
+                <div id="footer_location">
+                    <div id="footer_endereço">
+                        <a href="#" class="footer-location" id="icon-map">
+                            <i class='bx bx-map'></i>
+                        </a>
+                    <h1>Endereço</h1>
+                        <h3>Rua Olinto Fonseca 105
+                            <br>
+                            Pimenta-Minas Gerais
+                        </h3>
+                        
+                    </div>
+                </div>
+
+                <div id="footer_funcionamento">
+                    <div id="footer_horario">
+                        <a href="#" class="footer-funcionamento" id="icon-time">
+                            <i class='bx bxs-time-five'></i>
+                        </a>
+                        <h1>Horário de Funcionamento</h1>
+                            <h3>Segunda a sexta-feira
+                                <br>
+                                das 7:30h às 18:30h
+                                <br>
+                                sábado 7:30h ao 12:00.
+                            </h3>
+                    </div>
+                </div>
+            </div>
+               
+        </footer>
+        
+    </main>
+
+
+
+    <!--<div class="footer">
+        <div class="footer_content">
+            <img src="img/logopimauto.png" alt="logo">
+            <ul>
+                <li><h3>Início</h3></li>
+                <li><p>Serviços</p></li>
+                <li><p>Quem somos</p></li>
+                <li><p>Contato</p></li>
+            </ul>
+            <ul>
+                <li><i class='bx bxl-whatsapp-square'></i></li>
+                <li><i class='bx bxl-instagram' ></i></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="mobile-navbar.js"> </script>-->
+
+    
+
+
+</body>
+</html>
