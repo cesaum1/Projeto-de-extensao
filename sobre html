@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre nós</title>
+    <link rel="stylesheet" href="sobre.css">
+</head>
+<header>
+    <nav>
+        <a class="logo" href="/">Pimauto</a>
+             
+    <ul class="nav-list">
+        <li><a href="inicialpage.html">HOME</a></li>
+        <li><a href="/">SERVIÇOS</a></li>
+        <li><a href="sobre.html">QUEM SOMOS</a></li>
+    </ul>
+
+
+    </div>
+
+    <div class="btn-contato">
+        <a href="#">
+            <button>CONTATO</button>
+        </a>
+    </div>
+    </nav>
+</header> 
+
+<body>
+<div class="card">
+    <div class="img-box">
+        <img src="img/kennedy.jpg">
+    </div>
+    <div class="content">
+        <h2>Kennedy</h2>
+        <p>A história da Pimauto começa em 1982, quando o tio Rosalvo Alberto Pessoa fundou a primeira autopeças em Pimenta. Seus irmãos aprenderam o ofício de eletricista de veículos trabalhando com ele. Em 1984, com a ajuda da mãe Dirce, Kennedy Pessoa Barbosa tornou-se sócio da empresa. Trabalhando na Cemig na Usina de São Simão, Kennedy acompanhava o negócio à distância. Em 1986, ele retornou a Pimenta e vendeu sua parte na empresa. Após uma tentativa em Iguatama, em 1987 Kennedy comprou a parte do sócio e trouxe o estoque para Pimenta, fundando a Pimauto em 04/05/1988 com seu pai como sócio. Seu irmão Gilberto foi o primeiro funcionário. Ao longo dos anos, a Pimauto expandiu, adquirindo outra autopeças em Pimenta por volta de 1990. Em 1995 foi construída a primeira sede da empresa e em 1996 Kennedy comprou a parte do pai, tornando-se o único dono. Em 1997, a Pimauto compartilhou espaço com um terminal Lotérico e em 1999 uma nova sede foi construída, onde a empresa está localizada até hoje. Ao longo do tempo, novas demandas surgiram, incluindo a venda de peças para motocicletas. Em 2023, três funcionários tornaram-se sócios: Alisson, Daniel Bitencourt e Luiz Lara. Essa é uma breve trajetória da Pimauto.</p>
+    </div>
+   
+</div>
+<div class = "card">
+    <div class="img-box">
+        <img src="img/daniel.jpg">
+    </div>
+    <div class="content">
+        <h2>Daniel</h2>
+    </div>
+
+</div>    
+</body>
+</html>
