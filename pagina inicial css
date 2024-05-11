@@ -1,0 +1,263 @@
+/*formatação da pagina*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Botao flutuante do whatsaap*/
+.icon{
+    position: fixed;
+    bottom: 65px;
+    right: 30px;
+    font-size: 30px;
+    background-color: #01e675; 
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    z-index: 100;
+    box-shadow: 2px 2px 2px #c0bdbd;
+}
+.icon:hover{
+    background-color: #fff;
+    color: #01e675;
+    font-weight: 900;
+    box-shadow: 2 px 2px 20px #5fe690;
+}
+
+/*Inicio da nav-bar*/
+
+a{
+    color: #585656;
+    text-decoration: none;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+a:hover{
+    color: #fff;
+    opacity: 0.7;
+    transform: scale(1.05);
+}
+
+body, html{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    background-color: #fff;
+    position: relative
+}
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    padding: 40px;
+}
+
+nav{
+    max-width: 100%;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: black;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    background: #a50000;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px grey;/*cor a decidir*/
+}
+/*fim da navbar*/
+
+
+main{
+    
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.showcase{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    filter: drop-shadow(0px 0px 10px #000);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.showcase_content{
+    text-align: center;
+    line-height: 45px;
+}
+
+.showcase_content h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.showcase_content p{
+    font-size: 20px;
+}
+
+.showcase_content button{
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    background-color: black;
+    color: #fff;
+
+}
+
+:root{
+    --color-neutral-0: #0c0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+
+footer{
+    width: 193.5vh;
+    color: var(--color-neutral-40);
+}
+
+.footer-link{
+    text-decoration: none;
+}
+
+#footer_content{
+    background-color: var(--color-neutral-10);
+    display: flex;
+    align-items: center;
+    padding: 3rem 3.5rem;
+}
+
+#footer_contacts h1{
+    margin-bottom: 0.75rem;
+    
+}
+
+#footer_social_media{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    margin-top: 1.5rem;
+    float: left;
+}
+
+#footer_social_media .footer-link{
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.4s;
+}
+
+#footer_social_media .footer-link i{
+    font-size: 1.25rem;
+}
+
+#footer_social_media .footer-link:hover{
+    opacity: 0.8;
+}
+
+#instagram{
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook{
+    background-color: #4267b3;
+}
+
+#whatsapp{
+    background-color: #25d366;
+}
+
+.footer-list{
+    display: flex;
+    gap: 0.75rem;
+}
+
+@media screen and (max-witdh: 768px) {
+    #footer_content{
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+}
+
+@media screen and (max-witdh: 426px) {
+    #footer_content{
+        grid-template-columns: repeat(1,1fr);
+        padding: 3rem 2rem;
+    }
+}
+
+section.serviços{
+    padding: 40px 4%;
+}
+
+h2.titulo{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.serviços .serviços-box{
+    color: white; 
+    display: flex;
+    
+    
+   
+}
+
+.serviços .serviços-box img{
+    
+    width: 80px;
+    align-items: center;
+    color: #fff;
+}
+
+.serviços .serviços-box h3{
+    font-size: 28px;
+}
