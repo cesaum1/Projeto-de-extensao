@@ -2,50 +2,176 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre nós</title>
-    <link rel="stylesheet" href="sobre.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Pimauto Auto Peças</title>
+    <link href="sobre.css" rel="stylesheet"/>
+    
+    <!--Icones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
-<header>
-    <nav>
-        <a class="logo" href="/">Pimauto</a>
-             
-    <ul class="nav-list">
-        <li><a href="inicialpage.html">HOME</a></li>
-        <li><a href="/">SERVIÇOS</a></li>
-        <li><a href="sobre.html">QUEM SOMOS</a></li>
-    </ul>
-
-
-    </div>
-
-    <div class="btn-contato">
-        <a href="#">
-            <button>CONTATO</button>
-        </a>
-    </div>
-    </nav>
-</header> 
-
 <body>
-<div class="card">
-    <div class="img-box">
-        <img src="img/kennedy.jpg">
-    </div>
-    <div class="content">
-        <h2>Kennedy</h2>
-        <p>A história da Pimauto começa em 1982, quando o tio Rosalvo Alberto Pessoa fundou a primeira autopeças em Pimenta. Seus irmãos aprenderam o ofício de eletricista de veículos trabalhando com ele. Em 1984, com a ajuda da mãe Dirce, Kennedy Pessoa Barbosa tornou-se sócio da empresa. Trabalhando na Cemig na Usina de São Simão, Kennedy acompanhava o negócio à distância. Em 1986, ele retornou a Pimenta e vendeu sua parte na empresa. Após uma tentativa em Iguatama, em 1987 Kennedy comprou a parte do sócio e trouxe o estoque para Pimenta, fundando a Pimauto em 04/05/1988 com seu pai como sócio. Seu irmão Gilberto foi o primeiro funcionário. Ao longo dos anos, a Pimauto expandiu, adquirindo outra autopeças em Pimenta por volta de 1990. Em 1995 foi construída a primeira sede da empresa e em 1996 Kennedy comprou a parte do pai, tornando-se o único dono. Em 1997, a Pimauto compartilhou espaço com um terminal Lotérico e em 1999 uma nova sede foi construída, onde a empresa está localizada até hoje. Ao longo do tempo, novas demandas surgiram, incluindo a venda de peças para motocicletas. Em 2023, três funcionários tornaram-se sócios: Alisson, Daniel Bitencourt e Luiz Lara. Essa é uma breve trajetória da Pimauto.</p>
-    </div>
+    <header>
+        <div class="logo"><img src="img/logopimauto.png" alt="Logo"></div>
+        <div class="hamburguer">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="" class="active">Inicio</a>
+                </li>
+                <li>
+                    <a href="">Serviços</a>
+                </li>
+                <li>
+                    <a href="">Sobre</a>
+                </li>
+                <li>
+                    <a href="https://wa.me/5537988167683?text=Olá,+quero+conhecer+o+catálogo+de+peças+e+os+serviços+de+oficina🛠️" target="_blank" class="button"><button>Contato</button></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <script>
+        hamburguer = document.querySelector(".hamburguer");
+        hamburguer.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+    </header>
+<body>
+
+<div class="palavras"> 
+    <h1> pimauto autopeças</h1>
+</div> 
+<div class="wrapper">
+    <div class="container">
+        <span class="number" data-val="18" data-duration = "2000">00 </span>
+        <span class= "text">Serviços </span>
    
-</div>
-<div class = "card">
-    <div class="img-box">
-        <img src="img/daniel.jpg">
+   
     </div>
-    <div class="content">
-        <h2>Daniel</h2>
+    <div class="container">
+        <span class="number" data-val="42" data-duration = "2000">00 </span>
+        <span class= "text">Anos de Experiência</span>
+   
+   
+    </div>
+    <div class="container">
+       <h1> <span class="number" data-val="1800" data-duration = "1000">00 </span></h1>
+        <span class= "text">Clientes Satisfeito</span>
+   
+   
+    </div>
+</div>
+<script src="sobre.js"></script>
+
+<div class="sobre">
+   <center><h1>Sobre a Empresa</h1> </center> 
+    <h3>Há mais de quatro décadas, a Pimauto vem sendo sinônimo de excelência no mercado de autopeças. 
+        Com um vasto portfólio de produtos de alta qualidade, garantimos que seu veículo receba apenas o melhor. 
+        Nossa tradição e compromisso com a satisfação do cliente nos tornaram líderes. 
+        Confie em quem tem experiência e credibilidade: confie na Pimauto, onde cada peça faz a diferença! 
+        Venha nos conhecer e descubra por que somos a escolha número um dos motoristas exigentes. Pimauto: sua jornada começa aqui! </h3>
+</div>
+<div class="historia">
+<center><h1>Nossa História</h1></center>
+<h3>A história da Pimauto começa em 1982, quando o tio de Kennedy Pessoa Barbosa fundou a primeira autopeças em Pimenta. 
+    Em 1984, Kennedy tornou-se sócio, mas vendou sua parte em 1986 e tentou um novo negócio em Iguatama, que não deu certo. 
+    Em 1988, com a ajuda do pai, fundou a Pimauto em Pimenta.
+    Em 1995, a Pimauto ganhou sua primeira sede própria e em 1996 Kennedy tornou-se o único dono. Em 1999, a Pimauto mudou-se para uma nova sede, incluindo um galpão de manutenção. 
+    Em 2023, três funcionários tornaram-se sócios, incluindo o irmão caçula Alisson.</h3>
+
+<h3></h3>
+</div>
+<div class="fundo">
+    <div class="missao">
+        <h1> Missão</h1><br>
+        <h4>Promover satisfação para nossos clientes, oferecendo um serviço de ótima qualidade,preço justo, rapidez e eficácia. </h4>
+    </div>
+    <div class="visao">
+        <h1>Visao</h1><br>
+            <h4>Ser reconhecida como a melhor empresa de Autopeças de Pimenta e região, através de um relacionamento ético, transparente e de longo prazo.</h4>
+    </div>
+    <div class="valores">
+        <h1>Valores</h1><br>
+            <h4>• Nossa conduta deve refletir os mais altos padrões de ética
+                •Nossa comunicação dever ser clara e precisa;<br>
+                • Nosso relacionamento com os clientes e colaboradores deve ser transparente, baseado na responsabilidade, confiança e respeito entre as partes;<br>
+                • Segurança dos clientes acima de tudo;<br>
+                • Excelência com simplicidade;<br>
+                • Sustentabilidade econômica, social e ambiental.</h4>
+                <img src="img/engrenagem.png">    
+</div>
+           
     </div>
 
-</div>    
 </body>
+<footer>
+    <div id="footer_content">
+     <div id="footer_contacts">
+         <h1>Pimauto</h1>
+         <p>A melhor loja de vendas de peças da região!</p>
+
+         <div id="footer_social_media">
+             <a href="#" class="footer-link" id="instagram">
+                 <i class="fa-brands fa-instagram"></i>
+             </a>
+             <a href="#" class="footer-link" id="facebook">
+                 <i class="fa-brands fa-facebook-f"></i>
+             </a>
+             <a href="#" class="footer-link" id="whatsapp">
+                 <i class="fa-brands fa-whatsapp"></i>
+             </a>
+         </div>
+     </div>
+
+     <ul class="footer-list">
+         <li>
+             <i class="fa-solid fa-phone-volume"></i>
+             <h3>Fale conosco</h3>
+         </li>
+         <li>
+             <a href="https://wa.me/5537988167683?text=Olá,+quero+conhecer+o+catálogo+de+peças+e+os+serviços+de+oficina🛠️" target="_blank" class="footer-link">37 98816-7683</a>
+         </li>
+         <li>
+             <a href="https://wa.me/5537988167683?text=Olá,+quero+conhecer+o+catálogo+de+peças+e+os+serviços+de+oficina🛠️" target="_blank" class="footer-link">37 3324-1101</a>
+         </li>
+     </ul>
+
+     <ul class="footer-list">
+         <li>
+             <i class="fa-solid fa-location-dot"></i>
+             <h3>Endereço</h3>
+         </li>
+         <li>
+             <a href="https://www.google.com/maps/place/Auto+Pecas+Pimauto/@-20.47447,-45.8120928,15z/data=!3m1!4b1!4m6!3m5!1s0x94b469a70d08481b:0x6168d1a8b21d8447!8m2!3d-20.4744703!4d-45.8017931!16s%2Fg%2F1tfczxyp?entry=ttu" target="_blank" class="footer-link">R. Olinto Fonseca, 105 <br>Pimenta-MG-35585-000</a>
+         </li>
+     </ul>
+
+     <ul class="footer-list">
+         <li>
+             <i class="fa-solid fa-clock"></i>
+             <h3>Horario de Funcionamento</h3>
+         </li>
+         <li>
+             <a href="#" class="footer-link">Tech</a>
+         </li>
+         <li>
+             <a href="#" class="footer-link">Tech</a>
+         </li>
+         <li>
+             <a href="#" class="footer-link">Tech</a>
+         </li>
+     </ul>
+    </div>
+     
+ </footer>
 </html>
+
